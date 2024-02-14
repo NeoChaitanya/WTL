@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f18f01;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+}
+
+.one {
+  background-image: url("https://source.unsplash.com/featured/300x201");
+}
+
+.main-content {
+  background-color: #006e90;
+  width: 60%;
+  height: 75vh;
+  position: absolute;
+  top: 12.5vh;
+  right: 20%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 5px;
+  display: flex;
+  align-items: center;
+}
+
+/* main-image {
+  height: 100%;
+  width: 40%;
+  justify-self: start;
+} */
